@@ -1,0 +1,18 @@
+.navbar {
+    grid-area: navbar;
+    background-color: white;
+}
+
+.navbar img {
+    display: inline;
+    width: 20px;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+a.active {
+    color: blue;
+}

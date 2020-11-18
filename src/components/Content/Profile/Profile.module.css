@@ -1,0 +1,9 @@
+.profile {
+    background-color: purple;
+    box-sizing: border-box;
+}
+
+.profile img {
+    width: 500px;
+    height: 300px;
+}
