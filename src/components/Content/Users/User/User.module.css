@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.friend {
+    width: 500px;
+    margin: 5px 20px 5px 20px;
+    position: relative;
+}
+
+
+.image {
+    width: 60px;
+    border-radius: 50%;
+    text-align: center;
+    display: inline;
+}
+
+button {
+    width: 55px;
+    margin-left: 2px;
+    padding: 0px 4px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.information {
+    float: right;
+    width: 400px;
+    margin: 10px 35px 10px 0px;
+    border-radius: 10px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.location {
+    position: absolute;
+    top: 5px;
+    right: 5px
+
+}
+
+.name {
+    margin: 5px;
+    display: inline;
+}
+
+.status {
+    margin:20px 5px 5px 5px;
+    font-size: .7rem;
+}
+
+a {
+    padding: 0;
+}
