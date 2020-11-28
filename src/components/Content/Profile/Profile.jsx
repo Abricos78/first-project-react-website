@@ -3,6 +3,8 @@ import MyPostsContainer from './MyPosts/MyPostsContainer'
 import Post from './MyPosts/Post/Post'
 import style from './Profile.module.css'
 import ProfileInfo from './ProfileInfo/ProfileInfo'
+import spaceImg from '../../../assets/img/space.jpg'
+
 
 const Profile = props => {
     
@@ -10,11 +12,11 @@ const Profile = props => {
 
     return (
         <div className={style.profile}>
-            <img src="https://kartinkinaden.ru/uploads/posts/2020-07/1593659743_2-p-foni-s-kosmosom-3.jpg"></img>
-                <ProfileInfo />
+            <img src={spaceImg} />
+                <ProfileInfo avatar={props.profileInfo.photos.small} fullName={props.profileInfo.fullName} aboutMe={props.profileInfo.aboutMe}/>
                     <MyPostsContainer />
                     {postComponents}
-                </div>
+        </div>
     )
 
 }

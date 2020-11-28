@@ -6,7 +6,6 @@ import UserDialogs from './UserDialogs/UserDialogs'
 
 
 const Messages = props => {
-    debugger 
     let newMessageElement = React.createRef(),
     sendMessage = () => {
         props.sendMessage()
